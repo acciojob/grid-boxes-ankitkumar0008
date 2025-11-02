@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 242.5px);
+  grid-template-rows: repeat(5, 124px);
+  grid-gap: 10px 10px;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: green;
+}
+
+/* Grid placement rules */
+.card1 {
+  grid-column: span 4;
+}
+
+.card2 {
+  grid-row: span 4;
+}
+
+.card4 {
+  grid-column: span 2;
+}
+
+.card5 {
+  grid-column: span 2;
+}
+
+.card10 {
+  grid-column: span 3;
+}
